@@ -14,5 +14,6 @@
 # Ignore all local history of files
 .history
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
+# Ignore my directories
 modulo1/aula*
+modulo2/aula*
