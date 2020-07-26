@@ -1,6 +1,6 @@
 # Bootcamp Full Stack IGTI (JavaScript)
 
-Projetos desenvolvidos durante o Bootcamp Fullstack da IGTI
+Projetos desenvolvidos durante o Bootcamp Full Stack da IGTI
 
 ## Módulo 1 - Fundamentos
 
