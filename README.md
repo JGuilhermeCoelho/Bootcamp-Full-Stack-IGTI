@@ -8,11 +8,11 @@ Projetos desenvolvidos durante o Bootcamp Full Stack da IGTI
 
 - Desafio - Aplicação onde é possível adicionar um nome, removê-lo e editá-lo, usando o conceito CRUD
 
-#### [Color Picker](./modulo2/cities-and-states-of-brazil)
+#### [Color Picker](.)
 
 ### Módulo 2 - Desenvolvimento de APIs e MAnipulação de JSON
 
-#### [Cities And States (BRA) - Trabalho Prático](https://github.com/JGuilhermeCoelho/Bootcamp-Full-Stack-IGTI/tree/master/modulo2/cities-and-states-of-brazil)
+#### [Cities And States (BRA) - Trabalho Prático](/modulo2/cities-and-states-of-brazil)
 
 - Aplicação de manipulação de objetos .json - Exercitando a manipulação de arquivos com o módulo FileSystem
   > Os arquivos utilizados para manipulação foram extraídos do repositório: https://github.com/felipefdl/cidades-estados-brasil-json
