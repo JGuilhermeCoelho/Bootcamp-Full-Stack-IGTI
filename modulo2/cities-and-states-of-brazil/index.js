@@ -89,6 +89,45 @@ class Main {
     this.line();
     console.log("=> Os 5 estados com menos cidades são:", buttonFive);
   }
+
+  async minMaxNamesCitiesByState() {
+    const citiesOfState = [];
+
+    this.states.forEach((state, index) => {
+      const stateData = [];
+
+      this.cities.filter((city) => {
+        const cityNameSize = city.Nome.replace(/\s/g, "").length;
+
+        if (city.Estado === state.ID)
+          stateData.push(
+            `${city.Nome} - ${state.Sigla}: (${cityNameSize}) letras`
+          );
+      });
+
+      citiesOfState.splice(index, 1, stateData);
+    });
+
+    this.line();
+    console.log("=> A cidade com mais letras de cada um dos Estados: ");
+
+    for (let index in citiesOfState)
+      console.log(
+        citiesOfState[index].sort(
+          (a, b) => this.onlyNumbers(a) - this.onlyNumbers(b)
+        )[citiesOfState[index].length - 1]
+      );
+
+    this.line();
+    console.log("=> A cidade com menos letras de cada um dos Estados: ");
+
+    for (let index in citiesOfState)
+      console.log(
+        citiesOfState[index].sort(
+          (a, b) => this.onlyNumbers(a) - this.onlyNumbers(b)
+        )[0]
+      );
+  }
 }
 
 const main = new Main();
@@ -97,5 +136,6 @@ main
   .init()
   .then(() => main.createStatesFile())
   .then(() => main.countCitiesOf())
-  .then(() => main.maxCities())
+  .then(() => main.minMaxCities())
+  .then(() => main.minMaxNamesCitiesByState())
   .catch((err) => console.log("!!! Erro Encontrado!", err));
