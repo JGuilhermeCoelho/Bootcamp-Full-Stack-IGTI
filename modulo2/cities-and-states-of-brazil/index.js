@@ -37,7 +37,7 @@ class Main {
         if (city.Estado === state.ID) {
           stateData.push(city.Nome);
           fs.writeFile(
-            "./estados/" + `${state.Sigla}.json`,
+            `./estados/${state.Sigla}.json`,
             JSON.stringify(stateData, null, 2)
           );
         }
@@ -49,6 +49,14 @@ class Main {
       "=> Os arquivos dos estados foram criados e estão na pasta 'estados'"
     );
   }
+
+  async countCitiesOf(uf = "pe") {
+    const state = uf.toUpperCase();
+    const cities = JSON.parse(await fs.readFile(`./estados/${state}.json`));
+
+    this.line();
+    console.log(`=> O ${state} tem ${cities.length} cidades`);
+  }
 }
 
 const main = new Main();
@@ -56,4 +64,5 @@ const main = new Main();
 main
   .init()
   .then(() => main.createStatesFile())
+  .then(() => main.countCitiesOf())
   .catch((err) => console.log("!!! Erro Encontrado!", err));
