@@ -12,6 +12,10 @@ class Main {
     );
   }
 
+  onlyNumbers(sentence) {
+    return sentence.replace(/\D+/g, "");
+  }
+
   async init() {
     try {
       const readStates = JSON.parse(await fs.readFile("Estados.json"));
@@ -57,6 +61,34 @@ class Main {
     this.line();
     console.log(`=> O ${state} tem ${cities.length} cidades`);
   }
+
+  async minMaxCities() {
+    const numberCities = [];
+
+    this.states.forEach((state, index) => {
+      const stateData = [];
+
+      this.cities.filter((city) => {
+        if (city.Estado === state.ID) {
+          stateData.push(city.Nome);
+          numberCities.splice(index, 1, `${state.Sigla}: ${stateData.length}`);
+        }
+      });
+    });
+
+    const topFive = numberCities
+      .sort((a, b) => this.onlyNumbers(b) - this.onlyNumbers(a))
+      .slice(0, 5);
+
+    const buttonFive = numberCities
+      .sort((a, b) => this.onlyNumbers(a) - this.onlyNumbers(b))
+      .slice(0, 5);
+
+    this.line();
+    console.log("=> Os 5 estados com mais cidades são:", topFive);
+    this.line();
+    console.log("=> Os 5 estados com menos cidades são:", buttonFive);
+  }
 }
 
 const main = new Main();
@@ -65,4 +97,5 @@ main
   .init()
   .then(() => main.createStatesFile())
   .then(() => main.countCitiesOf())
+  .then(() => main.maxCities())
   .catch((err) => console.log("!!! Erro Encontrado!", err));
