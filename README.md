@@ -16,5 +16,12 @@ Projetos desenvolvidos durante o Bootcamp Full Stack da IGTI
 
 #### [Cidades e Estados do Brasil - Trabalho Prático](/modulo2/cities-and-states-of-brazil)
 
-- Aplicação de manipulação de objetos .json - Exercitando a manipulação de arquivos com o módulo nodejs FileSystem
+- Aplicação de manipulação de objetos .json - Exercitando a manipulação de arquivos com o módulo nodejs FileSystem.
   > Os arquivos utilizados para manipulação foram extraídos do repositório: https://github.com/felipefdl/cidades-estados-brasil-json
+
+#### [Brasileirão 2003 - Desafio Guiado](#)
+
+> Status do Projeto: Em desenvolvimento :warning:
+
+- Aplicação de manipulação de objetos .json - Exercitando a manipulação de arquivos com o módulo nodejs FileSystem.
+  > Os arquivos utilizados para manipulação foram extraídos do repositório: https://github.com/geovannyAvelar/Dados-Abertos-Campeonato-Brasileiro
