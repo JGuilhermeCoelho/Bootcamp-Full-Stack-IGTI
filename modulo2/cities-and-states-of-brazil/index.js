@@ -1,4 +1,5 @@
 import { promises as fs, stat } from "fs";
+import { kMaxLength } from "buffer";
 
 class Main {
   constructor() {
@@ -128,6 +129,36 @@ class Main {
         )[0]
       );
   }
+
+  async minMaxNamesCities() {
+    const allCities = [];
+
+    this.cities.forEach((city) => {
+      const cityNameSize = city.Nome.replace(/\s/g, "").length;
+      allCities.push(`${city.Nome}: (${cityNameSize}) letras`);
+    });
+
+    allCities.sort((a, b) => this.onlyNumbers(a) - this.onlyNumbers(b));
+
+    const maxSize = this.onlyNumbers(allCities[allCities.length - 1]);
+    const maxNameSize = [];
+
+    const minSize = this.onlyNumbers(allCities[0]);
+    const minNameSize = [];
+
+    allCities.forEach((city) => {
+      if (this.onlyNumbers(city) === maxSize) maxNameSize.push(city);
+      if (this.onlyNumbers(city) === minSize) minNameSize.push(city);
+    });
+
+    this.line();
+    console.log("A cidade com maior nome do Brasil é:");
+    console.log(maxNameSize.sort()[maxNameSize.length - 1]);
+
+    this.line();
+    console.log("A cidade com menor nome do Brasil é:");
+    console.log(minNameSize.sort()[0]);
+  }
 }
 
 const main = new Main();
@@ -138,4 +169,5 @@ main
   .then(() => main.countCitiesOf())
   .then(() => main.minMaxCities())
   .then(() => main.minMaxNamesCitiesByState())
+  .then(() => main.minMaxNamesCities())
   .catch((err) => console.log("!!! Erro Encontrado!", err));
