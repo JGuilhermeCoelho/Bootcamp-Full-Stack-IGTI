@@ -2,6 +2,8 @@
 
 Projetos desenvolvidos durante o Bootcamp Full Stack da IGTI
 
+<!-- módulo 1 -->
+
 ### Módulo 1 - Fundamentos JavaScript
 
 #### [Register](https://jguilhermecoelho.github.io/Bootcamp-Full-Stack-IGTI/modulo1/register/)
@@ -11,6 +13,10 @@ Projetos desenvolvidos durante o Bootcamp Full Stack da IGTI
 #### [Color Picker](#)
 
 > Status do Projeto: Em desenvolvimento :warning:
+
+<!-- modulo 1 -->
+
+<!-- módulo 2 -->
 
 ### Módulo 2 - Desenvolvimento de APIs e Manipulação de JSON
 
@@ -23,3 +29,5 @@ Projetos desenvolvidos durante o Bootcamp Full Stack da IGTI
 
 - Aplicação de manipulação de objetos .json - Exercitando a manipulação de arquivos com o módulo nodejs FileSystem.
   > Os arquivos utilizados para manipulação foram extraídos do repositório: https://github.com/geovannyAvelar/Dados-Abertos-Campeonato-Brasileiro
+
+<!-- modulo 2 -->
