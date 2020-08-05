@@ -2,6 +2,11 @@ ul, li {
     list-style-type: none;
 }
 
+body, input {
+    text-align: center;
+    font-size: 2.5vh;
+}
+
 .clickable {
     cursor: pointer;
 }
@@ -9,7 +14,8 @@ ul, li {
 .deleteButton {
     color: white;
     font-weight: bold;
-    background-color: darkred;
-    margin-right: 10px;
+    font-size: large;
+    background-color: red;
+    margin-right: 15px;
     border-radius: 50%;
 }
