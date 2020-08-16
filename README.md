@@ -4,12 +4,12 @@
   </h1>
   <h4>
     Projetos desenvolvidos durante o Bootcamp Full Stack da IGTI
-  </h4>
+  </h4>"
 </div>
 
 <!-- módulo 1 -->
 
-<h3 align=""> Módulo 1 - Fundamentos JavaScript </h3>
+<h3 align="center"> Módulo 1 - Fundamentos JavaScript </h3>
 
 #### [Register](https://jguilhermecoelho.github.io/Bootcamp-Full-Stack-IGTI/modulo1/register/)
 
