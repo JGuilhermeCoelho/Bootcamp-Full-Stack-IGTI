@@ -25,10 +25,14 @@ Projetos desenvolvidos durante o Bootcamp Full Stack da IGTI
 - Aplicação de manipulação de objetos .json - Exercitando a manipulação de arquivos com o módulo nodejs FileSystem.
   > Os arquivos utilizados para manipulação foram extraídos do repositório: https://github.com/felipefdl/cidades-estados-brasil-json
 
-#### [Brasileirão 2003 - Desafio Guiado](#)
+#### [Brasileirão 2003 - Exercício Guiado 1](#)
 
 - Aplicação de manipulação de objetos .json - Exercitando a manipulação de arquivos com o módulo nodejs FileSystem.
   > Os arquivos utilizados para manipulação foram extraídos do repositório: https://github.com/geovannyAvelar/Dados-Abertos-Campeonato-Brasileiro
+
+#### [My-Bank-API - Exercício Guiado 2](/modulo2/my-bank-api)
+
+- API - simulação de api de um banco. Nela contém uma Conta com (id, nome do proprietário da conta e o seu saldo), nessa API foi implementado os métodos (POST, GET, GET/:id, DELETE, PUT and PATCH).
 
 #### [Desafio Final](#)
 
