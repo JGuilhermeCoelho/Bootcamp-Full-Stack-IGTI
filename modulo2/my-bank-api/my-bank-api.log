@@ -1,0 +1,13 @@
+2020-08-16T19:39:13.689Z [my-bank-api] info: API Started and file Created!
+2020-08-16T19:40:13.785Z [my-bank-api] info: API Started!
+2020-08-16T19:41:20.224Z [my-bank-api] info: API Started!
+2020-08-16T19:41:37.569Z [my-bank-api] info: API Started!
+2020-08-16T19:42:16.596Z [my-bank-api] info: API Started!
+2020-08-16T19:42:40.741Z [my-bank-api] info: API Started!
+2020-08-16T19:42:55.325Z [my-bank-api] info: API Started!
+2020-08-16T19:43:04.410Z [my-bank-api] info: API Started!
+2020-08-16T19:43:24.925Z [my-bank-api] info: GET /account 
+2020-08-16T19:44:07.189Z [my-bank-api] info: API Started!
+2020-08-16T19:44:11.351Z [my-bank-api] info: POST /account - {"id":1,"nome":"Maria da Silva","balance":9999999999999}
+2020-08-16T19:44:33.150Z [my-bank-api] info: GET /account/:id
+2020-08-16T19:44:49.823Z [my-bank-api] info: GET /account 
