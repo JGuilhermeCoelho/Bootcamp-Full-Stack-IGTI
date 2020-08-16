@@ -1,5 +1,5 @@
 import express from "express";
-import { promises as fs } from "fs";
+import { promises as fs, read } from "fs";
 
 const router = express.Router();
 const { readFile, writeFile } = fs;
@@ -49,6 +49,37 @@ router.delete("/:id", async (req, res) => {
     );
     await writeFile(global.fileName, JSON.stringify(data, null, 2));
     res.end();
+  } catch (err) {
+    res.status(400).send({ error: err.message });
+  }
+});
+
+router.put("/", async (req, res) => {
+  try {
+    const account = req.body;
+    const data = JSON.parse(await readFile(global.fileName));
+    const index = data.accounts.findIndex((a) => a.id === account.id);
+
+    data.accounts[index] = account;
+
+    await writeFile(global.fileName, JSON.stringify(data, null, 2));
+
+    res.send(account);
+  } catch (err) {
+    res.status(400).send({ error: err.message });
+  }
+});
+
+router.patch("/updateBalance", async (req, res) => {
+  try {
+    const account = req.body;
+    const data = JSON.parse(await readFile(global.fileName));
+    const index = data.accounts.findIndex((a) => a.id === account.id);
+
+    data.accounts[index].balance = account.balance;
+
+    await writeFile(global.fileName, JSON.stringify(data, null, 2));
+    res.send(data.accounts[index]);
   } catch (err) {
     res.status(400).send({ error: err.message });
   }
