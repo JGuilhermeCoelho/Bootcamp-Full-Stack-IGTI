@@ -11,3 +11,62 @@
 2020-08-16T19:44:11.351Z [my-bank-api] info: POST /account - {"id":1,"nome":"Maria da Silva","balance":9999999999999}
 2020-08-16T19:44:33.150Z [my-bank-api] info: GET /account/:id
 2020-08-16T19:44:49.823Z [my-bank-api] info: GET /account 
+2020-08-16T19:49:14.296Z [my-bank-api] info: API Started!
+2020-08-16T19:49:15.962Z [my-bank-api] info: POST /account - {"id":2,"nome":"Jodé Silva","balance":1999.98}
+2020-08-16T20:19:29.982Z [my-bank-api] info: API Started!
+2020-08-16T20:20:37.649Z [my-bank-api] info: API Started!
+2020-08-16T20:23:29.610Z [my-bank-api] info: API Started!
+2020-08-16T20:24:46.876Z [my-bank-api] info: API Started!
+2020-08-16T20:25:18.505Z [my-bank-api] info: API Started!
+2020-08-16T20:25:31.898Z [my-bank-api] info: GET /account 
+2020-08-16T20:26:47.409Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:27:00.958Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:27:06.079Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:27:06.772Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:27:07.370Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:27:07.915Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:27:08.120Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:27:08.397Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:27:08.580Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:27:08.764Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:27:08.935Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:27:09.722Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:27:14.072Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:27:15.045Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:27:15.612Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:27:16.072Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:27:37.967Z [my-bank-api] info: API Started!
+2020-08-16T20:27:39.540Z [my-bank-api] info: API Started!
+2020-08-16T20:27:43.039Z [my-bank-api] info: GET /account/:id
+2020-08-16T20:27:44.166Z [my-bank-api] info: GET /account/:id
+2020-08-16T20:27:44.840Z [my-bank-api] info: GET /account/:id
+2020-08-16T20:27:45.317Z [my-bank-api] info: GET /account/:id
+2020-08-16T20:27:48.755Z [my-bank-api] info: GET /account 
+2020-08-16T20:28:04.179Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:28:26.059Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:28:26.770Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:28:27.010Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:28:27.216Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:28:27.518Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:28:27.731Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:29:38.020Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:29:38.937Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:29:39.517Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:29:39.740Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:29:39.992Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:29:40.226Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:29:57.204Z [my-bank-api] info: API Started!
+2020-08-16T20:29:58.581Z [my-bank-api] info: PUT /account - {"id":1,"nome":"Bernardo da Silva","balance":9999999999999}
+2020-08-16T20:30:12.992Z [my-bank-api] info: API Started!
+2020-08-16T20:30:14.696Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:30:15.710Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:30:16.130Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:30:16.558Z [my-bank-api] error: PUT /account - Name and Balance are required
+2020-08-16T20:31:53.960Z [my-bank-api] info: API Started and file Created!
+2020-08-16T20:32:03.573Z [my-bank-api] error: POST /account - Name and Balance are required
+2020-08-16T20:32:09.434Z [my-bank-api] info: POST /account - {"id":1,"name":"Jodé Silva","balance":1999.98}
+2020-08-16T20:32:19.086Z [my-bank-api] info: PUT /account - {"id":1,"name":"Bernardo da Silva","balance":9999999999999}
+2020-08-16T20:32:55.857Z [my-bank-api] info: API Started!
+2020-08-16T20:34:53.868Z [my-bank-api] info: API Started!
+2020-08-16T20:35:00.264Z [my-bank-api] info: API Started!
+2020-08-16T20:35:16.770Z [my-bank-api] info: API Started!

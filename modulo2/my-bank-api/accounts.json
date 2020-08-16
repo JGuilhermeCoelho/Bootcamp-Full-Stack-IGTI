@@ -3,7 +3,7 @@
   "accounts": [
     {
       "id": 1,
-      "nome": "Maria da Silva",
+      "name": "Bernardo da Silva",
       "balance": 9999999999999
     }
   ]
