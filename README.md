@@ -5,7 +5,6 @@
   <h3>
     Projetos desenvolvidos durante o Bootcamp Full Stack da IGTI
   </h3>
-</div>
 
 <!-- módulo 1 -->
 
@@ -42,3 +41,4 @@
 #### [Desafio Final](#)
 
 <!-- modulo 2 -->
+</div>
