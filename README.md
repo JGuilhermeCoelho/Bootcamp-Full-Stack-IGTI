@@ -1,6 +1,12 @@
-# Bootcamp Full Stack IGTI (JavaScript)
-
-Projetos desenvolvidos durante o Bootcamp Full Stack da IGTI
+<div align="center">
+  <h1>
+    Bootcamp Full Stack IGTI (JavaScript)
+  </h1>
+  <h3>
+    Projetos desenvolvidos durante o Bootcamp Full Stack da IGTI
+  </h3>
+  <br>
+</div>
 
 <!-- módulo 1 -->
 
