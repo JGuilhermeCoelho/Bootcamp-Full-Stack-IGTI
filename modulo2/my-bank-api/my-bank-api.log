@@ -102,3 +102,4 @@
 2020-08-16T22:13:13.189Z [my-bank-api] info: POST /account - {"id":1,"name":"Guilherme Coelho","balance":1000.2}
 2020-08-16T22:13:20.257Z [my-bank-api] info: GET /account 
 2020-08-16T22:14:58.865Z [my-bank-api] info: API Started and file Created!
+2020-08-16T22:28:44.555Z [my-bank-api] info: GET /account 
