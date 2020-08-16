@@ -70,3 +70,35 @@
 2020-08-16T20:34:53.868Z [my-bank-api] info: API Started!
 2020-08-16T20:35:00.264Z [my-bank-api] info: API Started!
 2020-08-16T20:35:16.770Z [my-bank-api] info: API Started!
+2020-08-16T20:48:29.341Z [my-bank-api] info: API Started!
+2020-08-16T21:04:47.112Z [my-bank-api] info: API Started and file Created!
+2020-08-16T21:06:33.217Z [my-bank-api] info: API Started and file Created!
+2020-08-16T21:06:56.960Z [my-bank-api] info: API Started and file Created!
+2020-08-16T21:07:20.892Z [my-bank-api] info: API Started and file Created!
+2020-08-16T21:11:56.862Z [my-bank-api] info: GET /account 
+2020-08-16T21:12:08.249Z [my-bank-api] info: GET /account 
+2020-08-16T21:12:09.247Z [my-bank-api] info: GET /account 
+2020-08-16T21:12:34.174Z [my-bank-api] info: GET /account 
+2020-08-16T21:12:35.239Z [my-bank-api] info: GET /account 
+2020-08-16T21:12:36.087Z [my-bank-api] info: GET /account 
+2020-08-16T21:13:19.285Z [my-bank-api] info: GET /account 
+2020-08-16T21:13:51.033Z [my-bank-api] info: GET /account 
+2020-08-16T21:13:51.985Z [my-bank-api] info: GET /account 
+2020-08-16T21:13:52.500Z [my-bank-api] info: GET /account 
+2020-08-16T21:13:52.714Z [my-bank-api] info: GET /account 
+2020-08-16T21:14:05.216Z [my-bank-api] info: GET /account 
+2020-08-16T21:14:08.167Z [my-bank-api] info: GET /account 
+2020-08-16T21:15:41.348Z [my-bank-api] info: GET /account 
+2020-08-16T22:02:19.169Z [my-bank-api] info: API Started!
+2020-08-16T22:02:46.359Z [my-bank-api] info: API Started and file Created!
+2020-08-16T22:09:24.184Z [my-bank-api] info: API Started and file Created!
+2020-08-16T22:10:16.451Z [my-bank-api] info: API Started!
+2020-08-16T22:10:22.336Z [my-bank-api] info: API Started and file Created!
+2020-08-16T22:10:55.242Z [my-bank-api] info: API Started!
+2020-08-16T22:11:18.130Z [my-bank-api] info: GET /account 
+2020-08-16T22:12:47.677Z [my-bank-api] info: API Started and file Created!
+2020-08-16T22:12:49.831Z [my-bank-api] info: API Started!
+2020-08-16T22:13:01.792Z [my-bank-api] info: GET /account 
+2020-08-16T22:13:13.189Z [my-bank-api] info: POST /account - {"id":1,"name":"Guilherme Coelho","balance":1000.2}
+2020-08-16T22:13:20.257Z [my-bank-api] info: GET /account 
+2020-08-16T22:14:58.865Z [my-bank-api] info: API Started and file Created!
