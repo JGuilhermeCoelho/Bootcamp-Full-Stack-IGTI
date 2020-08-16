@@ -2,9 +2,9 @@
   <h1>
     Bootcamp Full Stack IGTI (JavaScript)
   </h1>
-  <h4>
+  <p>
     Projetos desenvolvidos durante o Bootcamp Full Stack da IGTI
-  </h4>
+  </p>
 </div>
 
 <!-- módulo 1 -->
