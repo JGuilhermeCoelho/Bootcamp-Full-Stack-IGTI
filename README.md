@@ -2,13 +2,14 @@
   <h1>
     Bootcamp Full Stack IGTI (JavaScript)
   </h1>
-  <h3>
+  <h4>
     Projetos desenvolvidos durante o Bootcamp Full Stack da IGTI
-  </h3>
+  </h4>
+</div>
 
 <!-- módulo 1 -->
 
-### Módulo 1 - Fundamentos JavaScript
+<h3 align=""> Módulo 1 - Fundamentos JavaScript </h3>
 
 #### [Register](https://jguilhermecoelho.github.io/Bootcamp-Full-Stack-IGTI/modulo1/register/)
 
@@ -22,7 +23,9 @@
 
 <!-- módulo 2 -->
 
-### Módulo 2 - Desenvolvimento de APIs e Manipulação de JSON
+###
+
+<h3 align="center">Módulo 2 - Desenvolvimento de APIs e Manipulação de JSON</h3>
 
 #### [Cidades e Estados do Brasil - Trabalho Prático](https://github.com/JGuilhermeCoelho/Bootcamp-Full-Stack-IGTI/tree/master/modulo2/cities-and-states-of-brazil)
 
@@ -41,4 +44,3 @@
 #### [Desafio Final](#)
 
 <!-- modulo 2 -->
-</div>
