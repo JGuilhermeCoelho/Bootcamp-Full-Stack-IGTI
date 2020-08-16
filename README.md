@@ -23,8 +23,6 @@
 
 <!-- módulo 2 -->
 
-###
-
 <h3 align="center">Módulo 2 - Desenvolvimento de APIs e Manipulação de JSON</h3>
 
 #### [Cidades e Estados do Brasil - Trabalho Prático](https://github.com/JGuilhermeCoelho/Bootcamp-Full-Stack-IGTI/tree/master/modulo2/cities-and-states-of-brazil)
