@@ -4,7 +4,7 @@
   </h1>
   <h4>
     Projetos desenvolvidos durante o Bootcamp Full Stack da IGTI
-  </h4>"
+  </h4>
 </div>
 
 <!-- módulo 1 -->
