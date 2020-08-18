@@ -25,20 +25,31 @@
 
 <h3 align="center">Módulo 2 - Desenvolvimento de APIs e Manipulação de JSON</h3>
 
-#### [Cidades e Estados do Brasil - Trabalho Prático](https://github.com/JGuilhermeCoelho/Bootcamp-Full-Stack-IGTI/tree/master/modulo2/cities-and-states-of-brazil)
+#### [Cidades e Estados do Brasil](https://github.com/JGuilhermeCoelho/Bootcamp-Full-Stack-IGTI/tree/master/modulo2/cities-and-states-of-brazil)
 
 - **Trabalho Prático:** Aplicação de manipulação de objetos .json - Exercitando a manipulação de arquivos com o módulo nodejs FileSystem.
   > Os arquivos utilizados para manipulação foram extraídos do repositório: https://github.com/felipefdl/cidades-estados-brasil-json
 
-#### [Brasileirão 2003 - Exercício Guiado 1](https://github.com/JGuilhermeCoelho/Bootcamp-Full-Stack-IGTI/tree/master/modulo2/brasileirao2003)
+#### [Brasileirão 2003](https://github.com/JGuilhermeCoelho/Bootcamp-Full-Stack-IGTI/tree/master/modulo2/brasileirao2003)
 
-- **Exercício Guiado 1:** Aplicação de manipulação de objetos .json - Exercitando a manipulação de arquivos com o módulo nodejs FileSystem.
+- _Exercício Guiado 1:_ Aplicação de manipulação de objetos .json - Exercitando a manipulação de arquivos com o módulo nodejs FileSystem.
   > Os arquivos utilizados para manipulação foram extraídos do repositório: https://github.com/geovannyAvelar/Dados-Abertos-Campeonato-Brasileiro
 
 #### [My-Bank-API](https://github.com/JGuilhermeCoelho/Bootcamp-Full-Stack-IGTI/tree/master/modulo2/my-bank-api)
 
-- **Exercício Guiado 2:** API - simulação de api de um banco. Nela contém uma Conta com (id, nome do proprietário da conta e o seu saldo), nessa API foi implementado os métodos (POST, GET, GET/:id, DELETE, PUT and PATCH).
+- _Exercício Guiado 2:_ API - simulação de api de um banco. Nela contém uma Conta com (id, nome do proprietário da conta e o seu saldo), nessa API foi implementado os métodos (POST, GET, GET/:id, DELETE, PUT and PATCH).
 
 #### [Desafio Final](#)
 
+> Status do Projeto: Em desenvolvimento :warning:
+
 <!-- modulo 2 -->
+
+<!-- modulo 3 -->
+<h3 align="center">Módulo 3 - FrontEnd com React</h3>
+
+#### [Desafio Guiado 1](#)
+
+> Status do Projeto: Em desenvolvimento :warning:
+
+<!-- modulo 3 -->
