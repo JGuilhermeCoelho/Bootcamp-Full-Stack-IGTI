@@ -1,16 +1,15 @@
-    ![igti](https://www.igti.com.br/wp-content/themes/wp-bootstrap-4/assets/images/logos/logo-green.png)
-
 <div align="center">
   <h1>
-    Bootcamp Full Stack IGTI (JavaScript)
+    Bootcamp Full Stack 
+    <img src="https://www.igti.com.br/wp-content/themes/wp-bootstrap-4/assets/images/logos/logo-green.png" alt="IGTI" height="25px"> (JavaScript)
   </h1>
   <p>
     Projetos desenvolvidos durante o Bootcamp Full Stack da IGTI
   </p>
 </div>
+<hr>
 
 <!-- módulo 1 -->
-
 <h3 align="center"> Módulo 1 - Fundamentos JavaScript </h3>
 
 #### [Register](https://jguilhermecoelho.github.io/Bootcamp-Full-Stack-IGTI/modulo1/register/)
@@ -21,6 +20,7 @@
 
 > Status do Projeto: Em desenvolvimento :warning:
 
+<hr>
 <!-- modulo 1 -->
 
 <!-- módulo 2 -->
@@ -45,6 +45,8 @@
 
 > Status do Projeto: Em desenvolvimento :warning:
 
+<hr>
+
 <!-- modulo 2 -->
 
 <!-- modulo 3 -->
@@ -57,5 +59,7 @@
 #### [Desafio Guiado 2](#)
 
 > Status do Projeto: Em desenvolvimento :warning:
+
+<hr>
 
 <!-- modulo 3 -->
