@@ -52,4 +52,8 @@
 
 - _Exercício Guiado 1:_ Aplicação com um botão em que ao apertá-lo mostra-se o horário em que houve o clique, com o seguinte formato - (DD/MM/AA - h : m : s : ms) em forma de lista. Nesse desafio foi feito quatro implementações da mesma aplicação, com o objetivo de entender como funciona o React e quais as principais diferenças de implementação entre a o JS com a biblioteca e o JS sem: 1-JavaScript não performático, 2-JavaScript Performático, React com Class Components e por fim React usando Hooks.
 
+#### [Desafio Guiado 2](#)
+
+> Status do Projeto: Em desenvolvimento :warning:
+
 <!-- modulo 3 -->
