@@ -1,3 +1,5 @@
+    ![igti](https://www.igti.com.br/wp-content/themes/wp-bootstrap-4/assets/images/logos/logo-green.png)
+
 <div align="center">
   <h1>
     Bootcamp Full Stack IGTI (JavaScript)
