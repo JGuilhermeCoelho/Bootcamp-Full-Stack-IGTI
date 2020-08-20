@@ -18,7 +18,7 @@ export default function App() {
   return (
     <div>
       <h1>
-        React e <em>Class Components</em>
+        React com <em>Hooks</em>
       </h1>
 
       <button onClick={handleClick}>Clique Aqui</button>
