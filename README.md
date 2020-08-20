@@ -1,7 +1,7 @@
 <div align="center">
   <h1>
     Bootcamp Full Stack 
-    <img src="https://www.igti.com.br/wp-content/themes/wp-bootstrap-4/assets/images/logos/logo-green.png" alt="IGTI" height="25px"> (JavaScript)
+    <img src="https://www.igti.com.br/wp-content/themes/wp-bootstrap-4/assets/images/logos/logo-green.png" alt="IGTI" height="25px" href="https://www.igti.com.br/custom/bootcamps-gratuitos/"> (JavaScript)
   </h1>
   <p>
     Projetos desenvolvidos durante o Bootcamp Full Stack da IGTI
