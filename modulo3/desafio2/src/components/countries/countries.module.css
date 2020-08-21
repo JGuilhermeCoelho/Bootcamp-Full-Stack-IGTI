@@ -1,0 +1,49 @@
+.border {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.country {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.country {
+  width: 100px;
+  min-width: 120px;
+  max-width: 120px;
+  min-height: 120px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flag {
+  height: 50px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 30%;
+  padding: 1px;
+  background: lightgray;
+}
+
+.countryName {
+  text-align: center;
+}

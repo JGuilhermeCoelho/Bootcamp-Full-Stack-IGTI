@@ -1,0 +1,20 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.infoPopulation {
+  min-width: 181px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.infoCountries {
+  min-width: 78px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
