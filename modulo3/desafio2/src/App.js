@@ -79,6 +79,12 @@ export default class App extends Component {
           onChangeFilter={this.handleChangeFilter}
         />
         <Countries countries={filteredCountries} />
+        <h6 style={styles.centeredTitle}>
+          Data extracted from{" "}
+          <a href="https://restcountries.eu/rest/v2/all">
+            https://restcountries.eu/rest/v2/all
+          </a>
+        </h6>
       </div>
     );
   }
