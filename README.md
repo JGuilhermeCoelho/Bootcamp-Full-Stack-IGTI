@@ -59,7 +59,8 @@
 
 #### [Desafio Guiado 2](https://github.com/JGuilhermeCoelho/Bootcamp-Full-Stack-IGTI/tree/master/modulo3/desafio2)
 
--_Exercício Guiado 2:_ Aplicação para listar países a partir da API (https://restcountries.eu/rest/v2/all). A listagem contém a bandeira e nome do país, na parte superior é possível filtrar os países através de um input, ao lado, é exibido a quantidade de países e a soma da população dos países, alterando-se caso ocorra a filtragem.
+- _Exercício Guiado 2:_ Aplicação para listar países a partir da API (https://restcountries.eu/rest/v2/all). A listagem contém a bandeira e nome do país, na parte superior é possível filtrar os países através de um input, ao lado, é exibido a quantidade de países e a soma da população dos países, alterando-se caso ocorra a filtragem.
 
 <hr>
+
 <!-- modulo 3 -->
