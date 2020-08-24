@@ -34,8 +34,8 @@ export default function Candidates({
             <div key={id}>
               <Card>
                 <Candidate
-                  previousVote={previousVote}
                   previousPercentage={previousPercentage}
+                  previousVote={previousVote}
                   candidate={candidate}
                   position={index + 1}
                 />

@@ -26,6 +26,7 @@ export default class App extends Component {
           const previousVotes = this.state.candidates.map(({ id, votes }) => {
             return { id, votes };
           });
+
           const previousPercentages = this.state.candidates.map(
             ({ id, percentage }) => {
               return { id, percentage };
@@ -52,9 +53,9 @@ export default class App extends Component {
       <div className="container">
         <Header>Votação</Header>
         <Candidates
-          previousPercentage={previousPercentages}
-          previousVotes={previousVotes}
           candidates={candidates}
+          previousVotes={previousVotes}
+          previousPercentages={previousPercentages}
         />
       </div>
     );
