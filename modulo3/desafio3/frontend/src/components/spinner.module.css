@@ -1,0 +1,8 @@
+.flexRow {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+}
